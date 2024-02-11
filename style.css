@@ -1,0 +1,65 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+.btn-container {
+  display: inline-flex;
+  gap: 20px;
+}
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border-radius: 5px;
+}
+
+.yes {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.yes:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.no {
+  background-color: #f44336;
+  color: white;
+}
+
+.no:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.heartImage {
+  width: 250px;
+  height: auto;
+  margin-top: 20px;
+}
